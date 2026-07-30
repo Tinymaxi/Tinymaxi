@@ -1,11 +1,10 @@
 # Hi, I'm Max 👋
 
-This is my workshop corner of the internet — the stuff I build in my own time, for my own reasons.
+This is my workshop corner of the interne — the stuff I build in my own time, for my own reasons.
 
 Usually it starts with a problem around the house, or just curiosity about a chip I haven't used yet.
 I draw the part in Fusion 360, design the board that goes inside it, write the firmware, and then keep
-fiddling with it long after it works. Some of it runs 24/7 in my flat. Some of it was never meant to
-be more than an excuse to learn how a bus protocol works.
+fiddling with it long after it works.
 
 Nothing here is polished product code. It's hobby code — but it's honest, and it runs.
 
