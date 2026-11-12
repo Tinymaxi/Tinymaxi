@@ -1,12 +1,26 @@
 # Hi, I'm Max 👋
 
-This is my workshop corner of the interne — the stuff I build in my own time, for my own reasons.
+This is my workshop corner of the internet — the stuff I build in my own time, for my own reasons.
 
 Usually it starts with a problem around the house, or just curiosity about a chip I haven't used yet.
 I draw the part in Fusion 360, design the board that goes inside it, write the firmware, and then keep
 fiddling with it long after it works.
 
 Nothing here is polished product code. It's hobby code — but it's honest, and it runs.
+
+---
+
+## 🤖 How this gets built
+
+Most of it goes through Claude Code these days. What I've settled on, after a fair amount of
+getting it wrong:
+
+- **Several agents at once**, each on its own worktree, merged on purpose rather than hopefully.
+- **A `CLAUDE.md` in every repo**, so the context survives between sessions — you'll find them
+  lying around in here.
+- **Hooks and deny lists**, so an agent can't wander into files it has no business reading.
+- The hard part was never getting code *out* of an agent. It's noticing when it's confidently
+  wrong, and having tests that catch it when I don't.
 
 ---
 
